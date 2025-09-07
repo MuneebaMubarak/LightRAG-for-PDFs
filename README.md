@@ -34,31 +34,35 @@ LightRag_for_pdfs/
 ```bash
 git clone https://github.com/YOUR_USERNAME/LightRag_for_pdfs.git
 cd LightRag_for_pdfs
+```
 
 ### 2. Create and Activate Virtual Environment
-
+```
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
 ### 3. Install Dependencies
-
+```
 pip install -r requirements.txt
+```
 
 ### 4. Configure Environment Variables
-
+```
 create a .env file
 OPENAI_API_KEY=your-openai-api-key
 LOG_DIR=./logs
 LOG_MAX_BYTES=10485760
 LOG_BACKUP_COUNT=5
 VERBOSE_DEBUG=false
-
+```
 
 ### 5. Add PDF Files
-
+```
 Place your PDF files inside the /pdfs folder.
+```
 
 ### 6. Run your file
-
+```
 python main.py
-
+```
